@@ -757,6 +757,13 @@ overflow: hidden;
 .footer-social-links-link:not(:last-child) {
   margin-right: 10px;
 }
+.callto-footer-tel:hover,
+.callto-footer-tel:focus,
+.mailto-footer-mail:hover,
+.mailto-footer-mail:focus {
+  color: var(--secondary-color);
+  cursor: pointer;
+}
 
 .footer-social-links-list-item:hover, 
 .footer-social-links-list-item:focus {
